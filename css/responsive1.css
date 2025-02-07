@@ -1,4 +1,3 @@
-
 @media(min-width:992px) and (max-width:1199px){
     .slider-wrapper{
         width: 81%;
@@ -166,9 +165,36 @@ width: 1969px !important;
 }
 }
 @media(min-width:768px) and (max-width:992px){
-.navigate{
-    display: none;
-}
+    .wrap {
+        width: 97%;
+        margin: auto;
+    }
+    .relative:hover .home-list{
+        transform: translateX(0);
+    }
+    .home-padding {
+        padding: 10px 0!important;
+    }
+    .black {
+        padding: 3px 0;
+    }
+    .relative .home-list {
+        width: 257px;
+        top: 13px;
+        right: 110px;
+        transform: translateX(100%);
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .navigate{
+        display: none;
+        padding: 0px 15px;
+    }
+    .services {
+        padding: 9px 13px;
+    }
+    .sidenav .navigate {
+      display: block!important;
+    }
 .head-2 {
     font-size: 35px;
 }
@@ -288,10 +314,6 @@ width: 1969px !important;
     line-height: 47px;
     margin-bottom: 45px;
 }
-.wrap {
-    width: 99%;
-    margin: auto;
-}
 .girl-img {
     flex-wrap: wrap;
 }
@@ -372,7 +394,6 @@ margin-top: 5px;
 }
 .sec-8{
     padding-bottom: 9px;
-
 }
 .clip-1,
 .clip-2,
@@ -390,8 +411,11 @@ margin-top: 5px;
 .case-three:hover .clip-6::before {
     width: 1597px !important;
 }
+.home-padding {
+    padding: 10px 0!important;
+}
 /* start responsive navigation javascript code */
-     .sidenav {
+ .sidenav {
         padding-top: 74px;
         padding-bottom: 142px;
         display:block;
@@ -401,7 +425,7 @@ margin-top: 5px;
     }
       .sidenav a {
         font-size: 14px;
-    display: block;
+    display: block!important;
     font-weight: 600;
     font-family: inherit;
     }
@@ -411,13 +435,97 @@ margin-top: 5px;
     .three-dots{
         display:block;
         font-size: 37px !important;
-    } 
+            color: red!important;
+        }
+    .sidenav a {
+        padding: 0px 8px 0 32px;
+}
+.single-product {
+    width: 249px;
+    top: 38px;
+    right: -83px;
+}
 }
 /* end responsive navigation javascript code */
 @media(max-width:767px){
-.navigate{
-    display: none;
+    .bread-crumb {
+        font-size: 42px;
+        margin-bottom: 3px;
+        margin-top: 38px;
+        font-weight: 700;
+    }
+    .first-back:before {
+        height: 256px;
+    }
+    .first-back {
+        height: 240px;
+    }
+    .dot:before {
+        top: -6px;
+    }
+    .relative:hover .home-list{
+        transform: translateX(0);
+    }
+    .main-about {
+        padding-top: 66px;
+    }
+    .res-wrap {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .about-us-wrap {
+        margin: auto;
+        width: 72%;
+    }
+    .save-time {
+        font-size: 29px;
+        font-weight: 800;
+        line-height: 38px;
+        margin-top: 7px;
+    }
+    .save-paira {
+        font-size: 17px;
+        line-height: 27px;
+        font-weight: 300;
+        font-family: system-ui;
+    }
+    .experience {
+        font-size: 12px;
+    }
+    .about-width {
+        width: 100%;
+         padding-left: 0!important;
+         margin-top: -83px;
+    }
+    .queen {
+        width: 100%;
+    }
+    .sidenav a {
+        padding: 0px 8px 0 32px;
 }
+    .home-padding {
+        padding: 10px 0!important;
+    }
+    .black {
+        padding: 3px 0;
+    }
+    .relative .home-list {
+        width: 210px;
+        top: 13px;
+        right: 0px;
+        transform: translateX(100%);
+        transition: transform 0.3s ease, opacity 0.3s ease;
+    }
+    .navigate{
+        display: none;
+        padding: 0px 15px;
+    }
+    .services {
+        padding: 9px 13px;
+    }
+    .sidenav .navigate {
+      display: block!important;
+    }
 .header-button{
     display: none;
 }
@@ -712,6 +820,9 @@ span.swiper-pagination-bullet {
 .ms {
     width: 73%;
 }
+.about-clr {
+    font-size: 41px;
+}
 /* start responsive navigation javascript code */
 .sidenav {
     padding-top: 74px;
@@ -730,13 +841,42 @@ font-family: inherit;
 .sidenav .closebtn{
     display:block;
 }
+.res-shop{
+    margin-right: 61px;
+}
 .three-dots{
     display:block;
     font-size: 32px !important;
-    margin-left: 64px;
-} 
+    color: red!important;
 }
-/* end responsive navigation javascript code */
+.main-about {
+    padding-bottom: 53px;
+}
+.news {
+    margin-top: 13%;
+}
+.res-images {
+    width: 100%;
+}
+.wrap-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+.res-highly{
+        font-size: 23px;
+}
+.res-asr{
+
+        color: #de2847!important;
+        font-size: 11px;
+        font-weight: 600;
+    }
+    .res-word {
+        font-size: 11px;
+    }
+}
+    
+    /* end responsive navigation javascript code */
 @media(max-width:692px){
     .parts {
         width: 45% !important;
