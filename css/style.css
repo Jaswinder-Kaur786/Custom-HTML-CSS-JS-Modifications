@@ -1294,7 +1294,7 @@ position: fixed;
 	font-weight: lighter;
   }
   .three-dots{
-	display:none!important;
+	display:none;
   }
 
  /* end link navigation */
