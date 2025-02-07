@@ -20,9 +20,6 @@ a{
 .body{
     background-color: #141010;
 }
-span.three-dots.res-dots.material-symbols-rounded {
-    display: none!important;
-}
 .justify-center{
 	justify-content: center;
 }
@@ -1297,7 +1294,7 @@ position: fixed;
 	font-weight: lighter;
   }
   .three-dots{
-	display:none;
+	display:none!important;
   }
 
  /* end link navigation */
