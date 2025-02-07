@@ -20,8 +20,8 @@ a{
 .body{
     background-color: #141010;
 }
-.material-symbols-rounded{
-	display:none!important;
+.about-main .three-dots {
+    display: none;
 }
 .justify-center{
 	justify-content: center;
