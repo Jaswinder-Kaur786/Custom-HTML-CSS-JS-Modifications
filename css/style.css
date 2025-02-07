@@ -673,9 +673,7 @@ position: fixed;
 }
 .asr{
 	font-size:20px;
-}
-.fatima-white{
-	color:#fff!important;
+	color:white!important;
 }
 .us{
 	border-radius:5px;
@@ -713,7 +711,7 @@ position: fixed;
 }
 .sec-7{
 	width:100%;
-	border-radius:10px;
+	 border-radius:10px; 
 }
 .news{
 	font-size: 60px;
@@ -1298,48 +1296,8 @@ position: fixed;
   .three-dots{
 	display:none;
   }
- 
+
  /* end link navigation */
-/* start swiper crousel beautiful things */
-
-  /* .swiper-pagination{
-  bottom: -205px!important;
-  left: 52%;
-  transform: translateX(-50%);
-  display: flex;
-  align-items:center;
-  }
-  .swiper-pagination-bullets-dynamic .swiper-pagination-bullet{
-	position:static;
-  }
-  .swiper-pagination:focus{
-	border: 4px solid red!important;
-    background-color: transparent!important;
-  }
-span.swiper-pagination-bullet.swiper-pagination-bullet-active.swiper-pagination-bullet-active-main {
-    width: 8px;
-    height: 8px;
-}
-
-span.swiper-pagination-bullet {
-	display: none; 
-  }
-  
-  span.swiper-pagination-bullet:first-child,
-  span.swiper-pagination-bullet:nth-child(2) {
-	display: inline-block; 
-	width: 10px;
-	height: 10px; 
-	background-color: #fff;
-	margin-right: 5px; 
-	opacity: 0.4;
-  }
-  .swiper-pagination-bullet:focus {
-    border: 3px solid red!important;
-    outline: none; 
-	background-color: transparent!important;
-} */
-  /* end swiper crousel beautiful things */
   /* <!-- End Javascript CSS --> */
 /* end home page */
  /*start about page*/
@@ -1537,7 +1495,7 @@ text-transform: capitalize;
 }
 .word {
    font-size: 17px;
-}	
+}
 .web{
    width:92%;
    position:absolute;
@@ -1919,12 +1877,6 @@ font-size: 14px!important;
 	height:100%;
 	background-color: #00010c;
     opacity: .6;
-}
-.about-navigate{
-	padding: 40px 17px;
-    display: inline-block;
-    text-transform: capitalize;
-    font-size: 17px;
 }
 .element-body{
 	background-color:#fff;
