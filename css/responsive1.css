@@ -437,6 +437,9 @@ margin-top: 5px;
         font-size: 37px !important;
             color: #fff;
         }
+	  .about-main .three-dots{
+            display: block!important;
+        }
     .sidenav a {
         padding: 0px 8px 0 32px;
 }
@@ -849,6 +852,9 @@ font-family: inherit;
     font-size: 32px !important;
     color: #fff;
 }
+	  .about-main .three-dots{
+            display: block!important;
+        }
 .main-about {
     padding-bottom: 53px;
 }
