@@ -20,6 +20,10 @@ a{
 .body{
     background-color: #141010;
 }
+.width-wid{
+	display:flex;
+	align-items:center;
+}
 .justify-center{
 	justify-content: center;
 }
