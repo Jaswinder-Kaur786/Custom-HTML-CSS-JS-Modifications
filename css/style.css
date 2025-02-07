@@ -21,7 +21,7 @@ a{
     background-color: #141010;
 }
 .res-dot .material-symbols-rounded{
-	display:none;
+	display:none!important;
 }
 .justify-center{
 	justify-content: center;
