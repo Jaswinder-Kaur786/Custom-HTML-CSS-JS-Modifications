@@ -433,12 +433,12 @@ margin-top: 5px;
         display:block;
     }
     .three-dots{
-        display:block!important;
+        display:block;
         font-size: 37px !important;
             color: #fff;
         }
 	  .about-main .three-dots{
-            display: block!important;
+            display: block;
         }
     .sidenav a {
         padding: 0px 8px 0 32px;
@@ -848,12 +848,12 @@ font-family: inherit;
     margin-right: 61px;
 }
 .three-dots{
-  display:block!important;
+  display:block;
     font-size: 32px !important;
     color: #fff;
 }
 	  .about-main .three-dots{
-            display: block!important;
+            display: block;
         }
 .main-about {
     padding-bottom: 53px;
